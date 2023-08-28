@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food-Chart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="filter_opions">
+            <div class="flex-item"><input name="filter" type="radio" value="All">list all the food items</div>
+            <div class="flex-item"><input name="filter" type="radio" value="Vegetable">list all the food items with category vegetables</div>
+            <div class="flex-item"><input name="filter" type="radio" value="Fruit">list all the food items with category fruit</div>
+            <div class="flex-item"><input name="filter" type="radio" value="Protein">list all the food items with category protien</div>
+            <div class="flex-item"><input name="filter" type="radio" value="Nuts">list all the food items with category nuts</div>
+            <div class="flex-item"><input name="filter" type="radio" value="Grain">list all the food items with category grains</div>
+            <div class="flex-item"><input name="filter" type="radio" value="Dairy">list all the food items with category dairy</div>
+            <div class="flex-item"><input name="filter" type="radio" value="calorie_above_100">list all the food items with calorie above 100</div>
+            <div class="flex-item"><input name="filter" type="radio" value="calorie_below_100">list all the food items with calorie below 100</div>
+            <div class="flex-item"><input name="filter" type="radio" value="highest_protein_first">list all the food items with highest protien content to lowest</div>
+            <div class="flex-item"><input name="filter" type="radio" value="lowest_cab_first">list all the food items with lowest cab content to highest</div>
+            <br>
+            <button type="button">
+                View Results
+            </button>
+        </div>
+        <div id="data">
+            
+        </div>
+    </div>
+
+
+
+
+    <script src=".\script.js"></script>
+</body>
+</html>
